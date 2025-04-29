@@ -27,6 +27,7 @@ Other: 18.73%
 
 Majority of patients are female.
 ```
+![Gender Distribution Chart](./images/Gender_Distribution.png)
 
 ### 3. Top 5 Cities with the Highest Number of Patients
 ```python
