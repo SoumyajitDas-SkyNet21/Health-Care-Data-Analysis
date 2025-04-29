@@ -38,6 +38,6 @@ health_data['City'].value_counts().head(5)
 📌 Insight:
 Lake David, Smithshire, East Christopher, Christopherville, and Brownburgh lead in patient count.
 ```
-
+<img src="./images/Top 5 Cities With Highest Number of Patients.png" alt="Gender Distribution Chart" width="400"/>
 
 
