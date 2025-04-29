@@ -129,7 +129,11 @@ Shortest: Migraine (12 days)
 ```
 #### 15. Do Older Patients (60+) Have Higher Readmission Rates?
 
-# Compare readmission for age >60 and <60
+```
+readmission_rate_above_60=health_data[health_data['Age']>60]['Readmission_Within_30_Days'].value_counts(normalize=True)*100
+print(f'Readmission Rate of patients >60 years Old : {readmission_rate_above_60.iloc[1]}')
+readmission_rate_below_60=health_data[health_data['Age']<60]['Readmission_Within_30_Days'].value_counts(normalize=True)*100
+print(f'Readmission Rate of patients <60 years old : {readmission_rate_below_60.iloc[1]}')
 📌 Insight:
 
 60 years: 13.9%
@@ -137,12 +141,16 @@ Shortest: Migraine (12 days)
 <60 years: 20.2%
 
 Surprisingly, younger patients had higher readmission rates.
-
+```
 #### 16. Department-wise Mortality Rate Analysis
 
-# Deceased count / total per department
+```
+mortality_rate=health_data[health_data['Outcome']=='Deceased'].groupby('Department').size()/health_data.groupby('Department').size()*100
+```
 📌 Insight:
 
 Highest mortality: Orthopedics (44.77%)
 
 Lowest mortality: Gastroenterology (25.88%)
+
+<img src="./images/Mortality Rate(%) by Department.png" alt="Gender Distribution Chart" width="400"/>
