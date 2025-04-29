@@ -153,4 +153,4 @@ Highest mortality: Orthopedics (44.77%)
 
 Lowest mortality: Gastroenterology (25.88%)
 ```
-<img src="./images/Mortality Rate(%) by Department.png" alt="Gender Distribution Chart" width="400"/>
+<img src="./images/MortalityRate.png" alt="Gender Distribution Chart" width="400"/>
