@@ -16,7 +16,7 @@ health_data['Age'].mean()
 ```python
 
 health_data['Gender'].value_counts(normalize=True) * 100
-```
+
 📌 Insight:
 
 Female: 41.63%
@@ -26,4 +26,14 @@ Male: 39.63%
 Other: 18.73%
 
 Majority of patients are female.
+```
+
+### 3. Top 5 Cities with the Highest Number of Patients
+```python
+health_data['City'].value_counts().head(5)
+📌 Insight:
+Lake David, Smithshire, East Christopher, Christopherville, and Brownburgh lead in patient count.
+```
+
+
 
