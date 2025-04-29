@@ -158,22 +158,22 @@ Lowest mortality: Gastroenterology (25.88%)
 ### 📌 Summary & Key Learnings
 - The average patient age is ~52 years with female patients slightly outnumbering males.
 
-Fracture, Tuberculosis, and Migraine are the most common diagnoses.
+- Fracture, Tuberculosis, and Migraine are the most common diagnoses.
 
-Oncology has the highest treatment cost.
+- Oncology has the highest treatment cost.
 
-A notable 17.5% readmission rate exists within 30 days.
+- A notable 17.5% readmission rate exists within 30 days.
 
-Mortality rates differ significantly by department.
+- Mortality rates differ significantly by department.
 
-Surprisingly, younger patients had higher readmission rates.
+- Surprisingly, younger patients had higher readmission rates.
 
 ### 📁 Tools & Technologies Used
-Python
+- Python
 
-Pandas
+- Pandas
 
-Jupyter Notebook
+- Jupyter Notebook
 
-Matplotlib / Seaborn (Optional for visualization)
+- Matplotlib / Seaborn (Optional for visualization)
 
