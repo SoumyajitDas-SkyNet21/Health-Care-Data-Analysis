@@ -73,9 +73,9 @@ Lowest: Cardiology ($9,781)
 health_data['Diagnosis'].value_counts().head(3)
 📌 Insight:
 
-Fracture
-Tuberculosis
-Migraine
+* Fracture
+* Tuberculosis
+* Migraine
 ```
-
+<img src="./images/Top_Three_Diagnosis.png" alt="Gender Distribution Chart" width="400"/>
 
