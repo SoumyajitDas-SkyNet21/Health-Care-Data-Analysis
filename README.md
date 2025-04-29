@@ -9,3 +9,4 @@ This project explores a synthetic healthcare dataset containing patient records 
 ### 1. What is the Average Age of Patients?
 ```python
 health_data['Age'].mean()
+📌 Insight: The average age of patients is 51.66 years.
