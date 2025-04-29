@@ -154,3 +154,26 @@ Highest mortality: Orthopedics (44.77%)
 Lowest mortality: Gastroenterology (25.88%)
 ```
 <img src="./images/MortalityRate.png" alt="Gender Distribution Chart" width="400"/>
+
+### 📌 Summary & Key Learnings
+- The average patient age is ~52 years with female patients slightly outnumbering males.
+
+Fracture, Tuberculosis, and Migraine are the most common diagnoses.
+
+Oncology has the highest treatment cost.
+
+A notable 17.5% readmission rate exists within 30 days.
+
+Mortality rates differ significantly by department.
+
+Surprisingly, younger patients had higher readmission rates.
+
+### 📁 Tools & Technologies Used
+Python
+
+Pandas
+
+Jupyter Notebook
+
+Matplotlib / Seaborn (Optional for visualization)
+
