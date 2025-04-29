@@ -146,11 +146,11 @@ Surprisingly, younger patients had higher readmission rates.
 
 ```
 mortality_rate=health_data[health_data['Outcome']=='Deceased'].groupby('Department').size()/health_data.groupby('Department').size()*100
-```
+
 📌 Insight:
 
 Highest mortality: Orthopedics (44.77%)
 
 Lowest mortality: Gastroenterology (25.88%)
-
+```
 <img src="./images/Mortality Rate(%) by Department.png" alt="Gender Distribution Chart" width="400"/>
