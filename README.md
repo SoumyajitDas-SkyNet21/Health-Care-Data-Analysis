@@ -28,7 +28,8 @@ Other: 18.73%
 Majority of patients are female.
 ```
 <img src="./images/Gender_Distribution.png" alt="Gender Distribution Chart" width="400"/>
-<img src="./images/Gender_Distribution_Piechart.png" alt="Gender Distribution Chart" width="400"/>
+
+<img src="./images/Gender Distribution_Piechart.png" alt="Gender Distribution Chart" width="400"/>
 
 
 ### 3. Top 5 Cities with the Highest Number of Patients
