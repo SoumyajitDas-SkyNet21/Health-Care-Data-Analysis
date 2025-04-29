@@ -47,3 +47,35 @@ health_data['Department'].value_counts()
 Most admissions were in Pediatrics, followed by Gastroenterology and Neurology.
 ```
 <img src="./images/No. Of Patients Department Wise.png" alt="Gender Distribution Chart" width="400"/>
+
+### 5. Average Length of Stay per Department
+```health_data.groupby('Department')['Length_of_Stay'].mean()
+📌 Insight:
+Stays range from 14 to 17 days across departments, with Gastroenterology having the highest average.
+```
+### 6. What is the Overall Average Treatment Cost?
+```
+health_data['Treatment_Cost'].mean()
+📌 Insight:
+The overall average treatment cost is $ 10,359.
+```
+### 7. Average Treatment Cost by Department
+```
+health_data.groupby('Department')['Treatment_Cost'].mean()
+📌 Insight:
+
+Highest: Oncology ($11,042)
+
+Lowest: Cardiology ($9,781)
+```
+### 8. Top 3 Most Common Diagnoses
+```
+health_data['Diagnosis'].value_counts().head(3)
+📌 Insight:
+
+Fracture
+Tuberculosis
+Migraine
+```
+
+
