@@ -16,7 +16,7 @@ health_data['Age'].mean()
 ```python
 
 health_data['Gender'].value_counts(normalize=True) * 100
-```python
+```
 📌 Insight:
 
 Female: 41.63%
