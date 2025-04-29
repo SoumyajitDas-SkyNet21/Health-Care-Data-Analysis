@@ -10,3 +10,19 @@ This project explores a synthetic healthcare dataset containing patient records 
 ```python
 health_data['Age'].mean()
 📌 Insight: The average age of patients is 51.66 years.
+
+### 2. What is the Gender Distribution of Patients?
+python
+Copy
+Edit
+health_data['Gender'].value_counts(normalize=True) * 100
+📌 Insight:
+
+Female: 41.63%
+
+Male: 39.63%
+
+Other: 18.73%
+
+Majority of patients are female.
+
