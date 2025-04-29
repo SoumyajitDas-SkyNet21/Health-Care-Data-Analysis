@@ -40,4 +40,10 @@ Lake David, Smithshire, East Christopher, Christopherville, and Brownburgh lead 
 ```
 <img src="./images/Top 5 Cities With Highest Number of Patients.png" alt="Gender Distribution Chart" width="400"/>
 
-
+### 4. Number of Patients Admitted per Department
+```
+health_data['Department'].value_counts()
+📌 Insight:
+Most admissions were in Pediatrics, followed by Gastroenterology and Neurology.
+```
+<img src="./images/No. Of Patients Department Wise.png" alt="Gender Distribution Chart" width="400"/>
