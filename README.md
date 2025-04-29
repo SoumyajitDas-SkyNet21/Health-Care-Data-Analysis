@@ -19,11 +19,11 @@ health_data['Gender'].value_counts(normalize=True) * 100
 
 📌 Insight:
 
-Female: 41.63%
+* Female: 41.63%
 
-Male: 39.63%
+* Male: 39.63%
 
-Other: 18.73%
+* Other: 18.73%
 
 Majority of patients are female.
 ```
